@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<Modifier id="KANDAR_MOD_INFLUENCE_ON_UNIT_DEFEAT" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="PercentDefeatedStrength">50</Argument>
+		<String context="Description">LOC_TUNKUR_INFLUENCE_ON_UNIT_DEFEAT_NAME</String>
+		<String context="WorldText">LOC_WORLD_DIPLOMACY_INCREASE_FLOATER</String>
+	</Modifier>
 	<Modifier id="KOK_BORI_MOD_UNIT_ATTACK_ABILITY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
 		</SubjectRequirements>
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_TRADITION_KOK_BORI_NAME</String>
+		<String context="Preview">LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW</String>
 	</Modifier>
 	<Modifier id="KOK_BORI_MOD_UNIT_ATTACK_ABILITY_2" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="Amount">-5</Argument>
-		<String context="Preview">LOC_TRADITION_KOK_BORI_NAME</String>
+		<String context="Preview">LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW</String>
 	</Modifier>
 	<Modifier id="MOD_THE_GREAT_HORDE_MOVEMENT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
 		<SubjectRequirements>
@@ -29,5 +35,6 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW</String>
 	</Modifier>
 </GameEffects>

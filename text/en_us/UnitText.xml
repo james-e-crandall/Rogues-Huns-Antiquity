@@ -14,7 +14,7 @@
 			<Text>Kandar</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KANDAR_DESCRIPTION">
-			<Text>Hunnic Unique Cavalry Unit. Faster and stronger than other cavalry units.</Text>
+			<Text>Hunnic Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_DIPLOMACY] [B]Influence [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B]</Text>
 		</Row>
 
 		<Row Tag="LOC_ABILITY_TUNKUR_NAME">
@@ -25,11 +25,9 @@
 		</Row>
 
 		<Row Tag="LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW">
-			<Text>Kok Bori</Text>
+			<Text>+{1_Amount} Kok Bori</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW_2">
-			<Text>Kok Bori</Text>
-		</Row>
+
 
 		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_NAME">
 			<Text>Tängri Yarlığı</Text>
@@ -37,6 +35,8 @@
 		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_DESCRIPTION">
 			<Text>Kandar receive +1 movement and +3 combat strength.</Text>
 		</Row>
-
+		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_COMBAT_PREVIEW">
+			<Text>+{1_Amount} Tängri Yarlığı</Text>
+		</Row>
 	</EnglishText>
 </Database>
