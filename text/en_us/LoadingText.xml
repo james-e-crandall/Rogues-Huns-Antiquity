@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_VO_HUNS">
+			<Text>Ride with the storm, by the will of Tengrï!</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_HUNS">
+			<Text>Unlike the sedentary kingdoms they clashed with, the Huns built no cities—their empire was wherever their horses roamed. They lived and fought on the move, wielding their powerful composite bows with deadly precision from horseback. Their diplomacy was as ruthless as their warfare, using intimidation, extortion, and swift reprisals to control vast territories without ever needing walls.</Text>
+		</Row>
+	</EnglishText>
+</Database>

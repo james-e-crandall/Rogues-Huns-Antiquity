@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- HUNNIC -->
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_1">
+			<Text>Attila</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_2">
+			<Text>Bleda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_3">
+			<Text>Mundzuk</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_4">
+			<Text>Ruga</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_5">
+			<Text>Ellak</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_6">
+			<Text>Dengizik</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_7">
+			<Text>Emnedzur</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_8">
+			<Text>Tuldila</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_9">
+			<Text>Kuridak</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_MALE_10">
+			<Text>Uldin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_1">
+			<Text>Hereka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_2">
+			<Text>Kreka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_3">
+			<Text>Erkah</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_4">
+			<Text>Tarkanah</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_5">
+			<Text>Ešfina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_6">
+			<Text>Borte</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_7">
+			<Text>Ayzhan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_8">
+			<Text>Tengriqa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_9">
+			<Text>Dula</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HUNS_FEMALE_10">
+			<Text>Sirmia</Text>
+		</Row>
+	</EnglishText>
+</Database>

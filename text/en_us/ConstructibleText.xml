@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_IMPROVEMENT_STEPPE_PASTURE_NAME">
+			<Text>Steppe Pasture</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_STEPPE_PASTURE_DESCRIPTION">
+			<Text>Hunnic Unique Improvement. Grants +6 [icon:YIELD_FOOD] Food, +4 [icon:YIELD_GOLD] Gold, and +4 [icon:YIELD_HAPPINESS] Happiness. Must be built on a Horse Resource.</Text>
+		</Row>
+	</EnglishText>
+</Database>

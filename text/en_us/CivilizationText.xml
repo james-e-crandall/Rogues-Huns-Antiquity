@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civilization Names-->
+		<Row Tag="LOC_CIVILIZATION_HUNS_NAME">
+		<Text>Huns</Text>
+		</Row>
+		<!--Civilization Full Names-->
+		<Row Tag="LOC_CIVILIZATION_HUNS_FULLNAME">
+			<Text>Hunnic Confederacy</Text>
+		</Row>
+    	
+		<Row Tag="LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_HUNS_DESCRIPTION">
+			<Text>Hun Antiquity Age Civilization</Text>
+		</Row>
+		<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_HUNS_ADJECTIVE">
+			<Text>Hunnic</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_HUNS_ABILITY_NAME">
+			<Text>Tängri Qut</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]You can't build [B]Settlers[/B].[/LIST][LI]You recieve [B]+3 War Support[/B] when you initiate a war.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Nagyszéksós[/B].[/LIST]</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HUNS_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Hun's associated Wonder.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

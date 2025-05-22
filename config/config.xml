@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" CivilizationName="LOC_CIVILIZATION_HUNS_NAME" CivilizationFullName="LOC_CIVILIZATION_HUNS_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_HUNS_DESCRIPTION" CivilizationIcon="saxon.png"/>
+	</Civilizations>
+	<LeaderCivilizationBias>
+		<!-- <InsertOrIgnore CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" LeaderDomain="StandardLeaders" LeaderType="LEADER_ISABELLA" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_ISABELLA_HUNS_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" /> -->
+		<!-- <InsertOrIgnore CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_HUNS_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" /> -->
+	</LeaderCivilizationBias>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="TRAIT_HUNS_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HUNS_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="IMPROVEMENT_STEPPE_PASTURE" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_STEPPE_PASTURE_NAME" Description="LOC_IMPROVEMENT_STEPPE_PASTURE_DESCRIPTION" Icon="IMPROVEMENT_STEPPE_PASTURE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="UNIT_KANDAR" Kind="KIND_UNIT" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Icon="UNIT_KANDAR"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="UNIT_TUNKUR" Kind="KIND_UNIT" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" Icon="UNIT_TUNKUR"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" TagType="TAG_TRAIT_EXPANSIONIST"/>
+	</CivilizationTags>
+	<LeaderUnlocks>
+	</LeaderUnlocks>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_MONGOLIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_MONGOLIA_NAME" Description="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Icon="ICON_CIVILIZATION_MONGOLIA"/>
+	</CivilizationUnlocks>
+</Database>

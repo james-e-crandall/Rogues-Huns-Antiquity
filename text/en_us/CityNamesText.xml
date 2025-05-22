@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--HUNNIC-->
+		<Row Tag="LOC_CITY_NAME_HUNS1">
+			<Text>Attila's Court</Text>
+		</Row>
+	</EnglishText>
+</Database>

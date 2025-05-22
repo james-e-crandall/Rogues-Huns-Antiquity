@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<!-- <Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_KANDAR" UnlockDepth="1" RequiredTraitType="TRAIT_HUN"/> -->
+		<!-- <Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_KANDAR_2" UnlockDepth="1" RequiredTraitType="TRAIT_HUN"/> -->
+	</ProgressionTreeNodeUnlocks>
+</Database>

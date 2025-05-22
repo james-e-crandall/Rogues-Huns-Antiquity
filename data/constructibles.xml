@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
+	</Kinds>
+	<Types>
+		<Row Type="IMPROVEMENT_STEPPE_PASTURE" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<Constructibles>
+			<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" Name="LOC_IMPROVEMENT_STEPPE_PASTURE_NAME" Description="LOC_IMPROVEMENT_STEPPE_PASTURE_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_STEPPE_PASTURE_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="30" Population="1" Age="AGE_ANTIQUITY" RequiresUnlock="true"/>
+	</Constructibles>
+
+	<Improvements>
+		<!--Civ Unique Improvements-->
+		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_HUNS" SameAdjacentValid="false"/>
+	</Improvements>
+
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
+	</Constructible_YieldChanges>
+
+	<TypeTags>
+		<Row Type="IMPROVEMENT_STEPPE_PASTURE" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_STEPPE_PASTURE" Tag="AGELESS"/>
+	</TypeTags>
+
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" DistrictType="DISTRICT_RURAL"/>
+	</Constructible_ValidDistricts>
+
+	
+    <Constructible_ValidResources>
+        <Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" ResourceType="RESOURCE_HORSES"/>
+    </Constructible_ValidResources>
+	
+	<Constructible_Advisories>
+		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+	</Constructible_Advisories>
+</Database>

@@ -1,0 +1,71 @@
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_HUNS_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_HUNS" Name="LOC_CIVILIZATION_HUNS_NAME" FullName="LOC_CIVILIZATION_HUNS_FULLNAME" Description="LOC_CIVILIZATION_HUNS_DESCRIPTION" Adjective="LOC_CIVILIZATION_HUNS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_HUNS" CapitalName="LOC_CITY_NAME_HUNS1" RandomCityNameDepth="1"/>
+	</Civilizations>
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_HUNS_ABILITY" Name="LOC_TRAIT_HUNS_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_HUNS"/>
+		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_CIV_WAR_SUPPORT_HUNS"/>
+		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_GET_TUNKING"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_ANTIQUITY_CIV"/>
+
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_HUNS"/>
+
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_HUNS_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HUNS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HUNS" RequirementId="REQ_PLAYER_HAS_TRAIT_HUNS"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_HUNS" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_HUNS" Name="TraitType" Value="TRAIT_HUNS"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--SUMER-->
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS1"/>
+	</CityNames>
+	
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_HUNS" ResourceType="RESOURCE_HORSES" Score="50"/>
+	</StartBiasResources>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_HUNS" BiomeType="BIOME_GRASSLAND" Score="10"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_HUNS" TerrainType="TERRAIN_FLAT" Score="10"/>
+	</StartBiasTerrains>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_HUNS" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" BuildingCulture="MOD_STONE"/> 
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_HUNS" UnitCulture="Asian"/>
+	</VisArt_CivilizationUnitCultures>
+
+	<EndGameMovies>
+	</EndGameMovies>
+</Database>

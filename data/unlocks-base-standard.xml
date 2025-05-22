@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HUNS" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HUNS"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HUNS" Name="LOC_CIVILIZATION_HUNS_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_HUNS" CivUnlock="true"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_HUNS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIVILIZATION_IS_HUNS" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		
+		<Row RequirementId="REQ_HUNS_HAS_1_RAZED_SETTLEMENT" RequirementType="REQUIREMENT_PLAYER_RAZED_X_CITIES"/>
+		<Row RequirementId="REQ_HUNS_HAS_2_RAZED_SETTLEMENT" RequirementType="REQUIREMENT_PLAYER_RAZED_X_CITIES"/>
+		<Row RequirementId="REQ_HUNS_HAS_3_RAZED_SETTLEMENT" RequirementType="REQUIREMENT_PLAYER_RAZED_X_CITIES"/>
+		<Row RequirementId="REQ_HUNS_HAS_4_RAZED_SETTLEMENT" RequirementType="REQUIREMENT_PLAYER_RAZED_X_CITIES"/>
+
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIVILIZATION_IS_HUNS" Name="CivilizationType" Value="CIVILIZATION_HUNS"/>
+
+		<Row RequirementId="REQ_HUNS_HAS_1_RAZED_SETTLEMENT" Name="Amount" Value="1"/>
+		<Row RequirementId="REQ_HUNS_HAS_2_RAZED_SETTLEMENT" Name="Amount" Value="2"/>
+		<Row RequirementId="REQ_HUNS_HAS_3_RAZED_SETTLEMENT" Name="Amount" Value="3"/>
+		<Row RequirementId="REQ_HUNS_HAS_4_RAZED_SETTLEMENT" Name="Amount" Value="4"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_HUNS" RequirementId="REQ_CIVILIZATION_IS_HUNS"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MONGOLIA" RequirementSetId="REQSET_CIVILIZATION_IS_HUNS" Description="LOC_UNLOCK_PLAY_AS_HUNS_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HUNS_TOOLTIP"/>
+
+	</UnlockRequirements>
+
+	<UnlockConfigurationValues>
+		<!-- <InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SUMER" ConfigurationValue="CIVILIZATION_SUMER"/> -->
+	</UnlockConfigurationValues>
+</Database>

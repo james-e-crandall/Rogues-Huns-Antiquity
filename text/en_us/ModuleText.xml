@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_HUNS_NAME">
+			<Text>Rogue's Civs - Huns (Antiquity)</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_HUN_DESCRIPTION">
+			<Text>Adds the Huns as a playable civilization in the Antiquity Age.</Text>
+		</Row>
+		<Row Tag="LOC_AUTHORS_RA">
+			<Text>RogueAustralian</Text>
+		</Row>
+	</EnglishText>
+</Database>

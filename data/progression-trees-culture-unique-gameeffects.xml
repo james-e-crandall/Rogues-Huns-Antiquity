@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_QUT_ANGRY_DENOUNCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
+		<Argument name="ActionType">DIPLOMACY_ACTION_DENOUNCE</Argument>
+		<Argument name="Percent">100</Argument>
+		<String context="Description">LOC_MOD_QUT_ANGRY_DENOUNCE_DESCRIPTION</String>
+	</Modifier>
+     <Modifier id="MOD_BOZKIR_YOLU_GET_RANCHED" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES" run-once="false" permanent="true">
+        <Argument name="GrievancesAmount">30</Argument>
+        <String context="Description">LOC_MOD_BOZKIR_YOLU_GET_RANCHED_DESCRIPTION</String>
+    </Modifier>
+    <Modifier id="MOD_BOZKIR_YOLU_UNIT_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
+            <Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
+		</SubjectRequirements>
+		<Argument name="Percent">100</Argument>
+        <String context="Description">LOC_MOD_BOZKIR_YOLU_UNIT_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_THE_GREAT_HORDE_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_THE_GREAT_HORDE</Argument>
+		<String context="Description">LOC_ABILITY_THE_GREAT_HORDE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_FOREVER_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS">
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-10</Argument>
+		<String context="Description">LOC_MOD_FOREVER_WAR_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_KANDARPALOOZA" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitTag">UNIT_CLASS_KANDAR</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_KANDARPALOOZA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_KANDARPALOOZA_TUNK_TUNK" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitTag">UNIT_CLASS_TUNKUR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_KANDARPALOOZA_TUNK_TUNK_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

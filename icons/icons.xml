@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<Row>
+			<ID>CIVILIZATION_HUNS</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/huns.png</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_HUNS</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_aksum_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_HUNS</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_aksum_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+		<Row>
+			<ID>IMPROVEMENT_STEPPE_PASTURE</ID>
+			<Path>impicon_obsh</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_TUNKUR</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/tunkur.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_KANDAR</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_KANDAR_2</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
+		</Row>
+		<!-- <Row>
+			<ID>UNIT_CEORL</ID>
+			<Path>blp:unitflag_warrior</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_CEORL_2</ID>
+			<Path>blp:unitflag_spearman</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_CEORL_3</ID>
+			<Path>blp:unitflag_phalanx</Path>
+		</Row> -->
+		
+		<!-- <Row>
+			<ID>IMPROVEMENT_SACRED_GROVE</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/sacred_grove.png</Path>
+		</Row>
+		<Row>
+			<ID>BUILDING_MOOT_HALL</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/moot_hall.png</Path>
+		</Row> -->
+		
+	</IconDefinitions>
+	
+	<IconAliases>
+	</IconAliases>
+</Database>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_KOK_BORI_MOD_UNIT_ATTACK_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_KOK_BORI_UNIT_ATTACK_ABILITY</Argument>
+	</Modifier>
+
+    <Modifier id="MOD_YASIRGAN_1_CITY" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_HUNS_HAS_1_RAZED_SETTLEMENT"/>
+		</SubjectRequirements>
+        <Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+     <Modifier id="MOD_YASIRGAN_2_CITIES" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_HUNS_HAS_2_RAZED_SETTLEMENT"/>
+		</SubjectRequirements>
+        <Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+     <Modifier id="MOD_YASIRGAN_3_CITIES" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_HUNS_HAS_3_RAZED_SETTLEMENT"/>
+		</SubjectRequirements>
+        <Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+     <Modifier id="MOD_YASIRGAN_4_CITIES" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_HUNS_HAS_4_RAZED_SETTLEMENT"/>
+		</SubjectRequirements>
+        <Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+    <Modifier id="MOD_BASQURT_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE,YIELD_DIPLOMACY,YIELD_FOOD,YIELD_GOLD,YIELD_HAPPINESS,YIELD_PRODUCTION,YIELD_SCIENCE</Argument>
+		<Argument name="Percent">20</Argument>
+		<String context="Description">LOC_MOD_BASQURT_OCCUPIED_CITY_YIELD_DESCRIPTION</String>
+	</Modifier>
+
+    <Modifier id="MOD_YILKI_YOLU_MINE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_MINE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+	</Modifier>
+    <Modifier id="MOD_YILKI_YOLU_PASTURE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_PASTURE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+	</Modifier>
+    <Modifier id="MOD_YILKI_YOLU_STEPPE_PASTURE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_STEPPE_PASTURE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+	</Modifier>
+    <Modifier id="MOD_YANKUL_PILLAGING" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_UNITS_PILLAGE_BUILDING_MODIFIER">
+		<Argument name="Percent">200</Argument>
+	</Modifier>
+    <Modifier id="MOD_YANKUL_PILLAGE_IMPROVEMENTS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_UNITS_PILLAGE_IMPROVEMENT_MODIFIER">
+		<Argument name="Percent">200</Argument>
+	</Modifier>
+</GameEffects>

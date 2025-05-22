@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNIT_TUNKUR_NAME">
+			<Text>Tunkur</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TUNKUR_DESCRIPTION">
+			<Text>Hunnic Unique Support Unit. Adjacent units recieve +10 combat strength against walled districts.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TUNKUR_PREVIEW">
+			<Text>Thunk</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KANDAR_NAME">
+			<Text>Kandar</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KANDAR_DESCRIPTION">
+			<Text>Hunnic Unique Cavalry Unit. Faster and stronger than other cavalry units.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_TUNKUR_NAME">
+			<Text>Tunkur</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TUNKUR_DESCRIPTION">
+			<Text>Additional combat strength against walled districts.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW">
+			<Text>Kok Bori</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW_2">
+			<Text>Kok Bori</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_NAME">
+			<Text>Tängri Yarlığı</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_DESCRIPTION">
+			<Text>Kandar receive +1 movement and +3 combat strength.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>
