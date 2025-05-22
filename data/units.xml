@@ -11,7 +11,7 @@
 		<Row Type="ABILITY_THE_GREAT_HORDE" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_TUNKUR" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" BaseSightRange="1" BaseMoves="3" PrereqPopulation="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" FoundCity="true" CostProgressionModel="COST_PROGRESSION_NUM_SETTLEMENTS" CostProgressionParam1="30" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_TUNKUR" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" BaseSightRange="1" BaseMoves="7" PrereqPopulation="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" FoundCity="true" CostProgressionModel="COST_PROGRESSION_NUM_SETTLEMENTS" CostProgressionParam1="30" TraitType="TRAIT_HUNS"/>
 		<Row UnitType="UNIT_KANDAR" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="1" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT"  ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_HUNS"/>
 		<Row UnitType="UNIT_KANDAR_2" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="2" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" TraitType="TRAIT_HUNS"/>
 		<Row UnitType="UNIT_KANDAR_3" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="3" Maintenance="3" BaseSightRange="2" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT"  ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"  TraitType="TRAIT_HUNS"/>
@@ -27,7 +27,6 @@
 		<Row UnitType="UNIT_KANDAR_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_KANDAR_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
 	</Unit_Costs>
-	
 	<UnitUpgrades>
 		<Row Unit="UNIT_KANDAR" UpgradeUnit="UNIT_KANDAR_2"/>
 		<Row Unit="UNIT_KANDAR_2" UpgradeUnit="UNIT_KANDAR_2"/>
@@ -63,17 +62,25 @@
 	</TypeTags>
 	<UnitClass_Abilities>
 		<Row UnitAbilityType="ABILITY_KANDAR" UnitClassType="UNIT_CLASS_KANDAR"/>
+		<Row UnitAbilityType="ABILITY_TUNKUR" UnitClassType="UNIT_CLASS_TUNKUR"/>
 	</UnitClass_Abilities>
 	<UnitAbilities>
+		<!-- Units -->
 		<Row UnitAbilityType="ABILITY_KANDAR" Name="LOC_ABILITY_KANDAR_NAME" Description="LOC_ABILITY_KANDAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TUNKUR" Name="LOC_ABILITY_TUNKUR_NAME" Description="LOC_ABILITY_TUNKUR_DESCRIPTION"/>
+		<!-- Culture -->
 		<Row UnitAbilityType="ABILITY_KOK_BORI_UNIT_ATTACK_ABILITY" Inactive="true" Name="LOC_TRADITION_KOK_BORI_NAME" Description="LOC_TRADITION_KOK_BORI_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_THE_GREAT_HORDE" Inactive="true" Name="LOC_ABILITY_THE_GREAT_HORDE_NAME" Description="LOC_ABILITY_THE_GREAT_HORDE_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
+		<!-- Units -->
 		<Row UnitAbilityType="ABILITY_KANDAR" ModifierId="KANDAR_MOD_INFLUENCE_ON_UNIT_DEFEAT"/>
+		<Row UnitAbilityType="ABILITY_KANDAR" ModifierId="MOD_GET_TUNKING"/>
+		<!-- Culture -->
 		<Row UnitAbilityType="ABILITY_KOK_BORI_UNIT_ATTACK_ABILITY" ModifierId="KOK_BORI_MOD_UNIT_ATTACK_ABILITY"/>
 		<Row UnitAbilityType="ABILITY_THE_GREAT_HORDE" ModifierId="MOD_THE_GREAT_HORDE_MOVEMENT_ABILITY"/>
 		<Row UnitAbilityType="ABILITY_THE_GREAT_HORDE" ModifierId="MOD_THE_GREAT_HORDE_COMBAT_ABILITY"/>
+
 	</UnitAbilityModifiers>
 	<Unit_Advisories>
 		<Row UnitType="UNIT_TUNKUR" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>

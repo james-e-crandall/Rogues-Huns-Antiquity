@@ -8,7 +8,7 @@
 			<Text>Hunnic Unique Support Unit. Adjacent units recieve +10 combat strength against walled districts.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_TUNKUR_PREVIEW">
-			<Text>Thunk</Text>
+			<Text>+{1_Amount} Tunkur</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KANDAR_NAME">
 			<Text>Kandar</Text>

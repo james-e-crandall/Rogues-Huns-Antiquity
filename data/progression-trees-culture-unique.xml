@@ -25,7 +25,6 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Qut -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_UNIT" TargetType="UNIT_TUNKUR" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_TRADITION" TargetType="TRADITION_KOK_BORI" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_MODIFIER" TargetType="MOD_QUT_ANGRY_DENOUNCE" UnlockDepth="2"/>
