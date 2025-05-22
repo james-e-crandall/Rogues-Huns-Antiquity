@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+        <Row>
+            <ID>REMAP_UNIT_KANDAR</ID>
+            <DisplayName>LOC_UNIT_KANDAR_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_KANDAR</From>
+            <To>UNIT_HORSEMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_KANDAR_2</ID>
+            <DisplayName>LOC_UNIT_KANDAR_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_KANDAR_2</From>
+            <To>UNIT_HORSEMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_KANDAR_3</ID>
+            <DisplayName>LOC_UNIT_KANDAR_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_KANDAR_3</From>
+            <To>UNIT_HORSEMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_TUNKUR</ID>
+            <DisplayName>LOC_UNIT_TUNKUR_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_TUNKUR</From>
+            <To>UNIT_SETTLER</To>
+        </Row>     
+    </VisualRemaps>
+</Database>

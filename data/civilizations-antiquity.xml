@@ -15,7 +15,6 @@
 		<Row TraitType="TRAIT_HUNS_ABILITY" Name="LOC_TRAIT_HUNS_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_HUNS"/>
 		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_CIV_WAR_SUPPORT_HUNS"/>
 		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_GET_TUNKING"/>
 	</TraitModifiers>

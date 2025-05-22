@@ -37,8 +37,31 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
+        <Criteria all="true" id="ged-ynamp-enable">
+            <!-- let other mods override the yield banner -->
+            <ModInUse>ged-ynamp</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
+		<!-- Optional compatability -->
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+			<!-- ynamp compatability -->
+			<Actions>
+                <UpdateDatabase>
+					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="rogues-civ-huns" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -54,41 +77,15 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/named-places.xml</Item>
-					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>	
-					<Item>data/progression-trees-culture-unique.xml</Item>				
 					<Item>data/traditions-gameeffects.xml</Item>						
 					<Item>data/traditions.xml</Item>								
-					<Item>data/unlocks-base-standard.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/NamedPlacesText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
 					<Item>text/en_us/AttributesText.xml</Item>
-				</UpdateText>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-antiquity-main-huns" scope="game" criteria="antiquity-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-antiquity.xml</Item>
-					
-					<Item>data/citizen-names.xml</Item>
-
-					<Item>data/civilizations-antiquity.xml</Item>
-					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/constructibles-no-persist.xml</Item>
-					<Item>data/loading-info-antiquity.xml</Item>
-					<Item>data/progression-trees-tech.xml</Item> <!-- We'll get back to this -->
-					<Item>data/units.xml</Item>
-					<Item>data/units-gameeffects.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
-					<Item>text/en_us/CitizenNamesText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -105,6 +102,33 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-huns" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/constructibles-no-persist.xml</Item>
+					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/progression-trees-culture-common.xml</Item>	
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>	
+					<Item>data/progression-trees-culture-unique.xml</Item>		
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+				</UpdateText>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
+			</Actions>
+		</ActionGroup>
+
 		<ActionGroup id="rogue-civ-huns-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -122,7 +146,6 @@
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/NamedPlacesText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->

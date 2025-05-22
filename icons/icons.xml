@@ -33,28 +33,10 @@
 			<ID>UNIT_KANDAR_2</ID>
 			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
 		</Row>
-		<!-- <Row>
-			<ID>UNIT_CEORL</ID>
-			<Path>blp:unitflag_warrior</Path>
-		</Row>
 		<Row>
-			<ID>UNIT_CEORL_2</ID>
-			<Path>blp:unitflag_spearman</Path>
+			<ID>UNIT_KANDAR_3</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
 		</Row>
-		<Row>
-			<ID>UNIT_CEORL_3</ID>
-			<Path>blp:unitflag_phalanx</Path>
-		</Row> -->
-		
-		<!-- <Row>
-			<ID>IMPROVEMENT_SACRED_GROVE</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/sacred_grove.png</Path>
-		</Row>
-		<Row>
-			<ID>BUILDING_MOOT_HALL</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/moot_hall.png</Path>
-		</Row> -->
-		
 	</IconDefinitions>
 	
 	<IconAliases>

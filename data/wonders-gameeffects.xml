@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="WONDER_TEMPLE_OF_POSEIDON_MOD" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_TEMPLE_OF_POSEIDON_UPGRADE</Argument>
+	</Modifier>
+
+	<Modifier id="ABILITY_TEMPLE_OF_POSEIDON_MOD" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_HEAL">
+		<Argument name="AttackAmount">15</Argument>
+	</Modifier>
+
+
+	<Modifier id="WONDER_TEMPLE_OF_POSEIDON_MOD_FOOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Adjacency_YieldChange">CoastFood</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_POSEIDON_NAME</Argument>
+		<String context="Description">LOC_WONDER_TEMPLE_OF_POSEIDON_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="WONDER_TEMPLE_OF_POSEIDON_MOD_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Adjacency_YieldChange">CoastGold</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_POSEIDON_NAME</Argument>
+		<String context="Description">LOC_WONDER_TEMPLE_OF_POSEIDON_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="WONDER_TEMPLE_OF_POSEIDON" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="ABILITY_TEMPLE_OF_POSEIDON" Kind="KIND_ABILITY"/>
+    </Types>
+	<!-- Wonders -->
+	<TypeQuotes>
+		<Row Type="WONDER_TEMPLE_OF_POSEIDON" Quote="LOC_QUOTE_WONDER_TEMPLE_OF_POSEIDON" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_TEMPLE_OF_POSEIDON" QuoteAudio="VO_Quote_Temple_Of_Poseidon"/>
+    </TypeQuotes>
+	<Constructibles>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" Name="LOC_WONDER_TEMPLE_OF_POSEIDON_NAME" Description="LOC_WONDER_TEMPLE_OF_POSEIDON_DESCRIPTION" Tooltip="LOC_WONDER_TEMPLE_OF_POSEIDON_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" AdjacentTerrain="TERRAIN_COAST" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" MaxWorldInstances="1"  />    
+	</Wonders>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" YieldType="YIELD_GOLD" YieldChange="3"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_TEMPLE_OF_POSEIDON_MOD"/>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_TEMPLE_OF_POSEIDON_MOD_FOOD"/>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_TEMPLE_OF_POSEIDON_MOD_GOLD"/>
+	</ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+    </Constructible_Advisories>
+	<!-- UNITS -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_TEMPLE_OF_POSEIDON" Name="LOC_ABILITY_TEMPLE_OF_POSEIDON_NAME" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_TEMPLE_OF_POSEIDON" ModifierId="ABILITY_TEMPLE_OF_POSEIDON_MOD"/>
+	</UnitAbilityModifiers>
+</Database>

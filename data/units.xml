@@ -4,30 +4,32 @@
 		<Row Type="UNIT_TUNKUR" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_KANDAR" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_KANDAR_2" Kind="KIND_UNIT"/>
-
-
+		<Row Type="UNIT_KANDAR_3" Kind="KIND_UNIT"/>
 		<Row Type="ABILITY_TUNKUR" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_KOK_BORI_UNIT_ATTACK_ABILITY" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_THE_GREAT_HORDE" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
 		<Row UnitType="UNIT_TUNKUR" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="1" UnitMovementClass="UNIT_MOVEMENT_CLASS_WHEELED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HUNS"/>
-		<Row UnitType="UNIT_KANDAR" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" MustPurchase="true" ZoneOfControl="true" TraitType="TRAIT_HUNS"/>
-		<Row UnitType="UNIT_KANDAR_2" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" MustPurchase="true" ZoneOfControl="true" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_KANDAR" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="1" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" MustPurchase="true" ZoneOfControl="true" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_KANDAR_2" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="2" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" MustPurchase="true" ZoneOfControl="true" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_KANDAR_3" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="3" Maintenance="3" BaseSightRange="2" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" MustPurchase="true" ZoneOfControl="true" TraitType="TRAIT_HUNS"/>
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_TUNKUR" Combat="15"/>
-		<Row UnitType="UNIT_KANDAR" Combat="33"/>
-		<Row UnitType="UNIT_KANDAR_2" Combat="38"/>
+		<Row UnitType="UNIT_KANDAR" Combat="25"/>
+		<Row UnitType="UNIT_KANDAR_2" Combat="30"/>
+		<Row UnitType="UNIT_KANDAR_3" Combat="35"/>
 	</Unit_Stats>
 	<Unit_Costs>
-		<Row UnitType="UNIT_TUNKUR" YieldType="YIELD_PRODUCTION" Cost="65"/>
-		<Row UnitType="UNIT_KANDAR" YieldType="YIELD_PRODUCTION" Cost="80"/>
-		<Row UnitType="UNIT_KANDAR_2" YieldType="YIELD_PRODUCTION" Cost="120"/>
+		<Row UnitType="UNIT_TUNKUR" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_KANDAR" YieldType="YIELD_PRODUCTION" Cost="50"/>
+		<Row UnitType="UNIT_KANDAR_2" YieldType="YIELD_PRODUCTION" Cost="70"/>
+		<Row UnitType="UNIT_KANDAR_3" YieldType="YIELD_PRODUCTION" Cost="120"/>
 	</Unit_Costs>
 	
 	<UnitUpgrades>
 		<Row Unit="UNIT_KANDAR" UpgradeUnit="UNIT_KANDAR_2"/>
+		<Row Unit="UNIT_KANDAR_2" UpgradeUnit="UNIT_KANDAR_2"/>
 	</UnitUpgrades>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_TUNKUR" ReplacesUnitType="UNIT_SETTLER"/>
@@ -44,16 +46,25 @@
 		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_WHEELED"/>
 		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_SIEGE"/>
 
+		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_CREATE_TOWN"/>
+		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_NAGARIKA"/>
+
+
 		<Row Type="UNIT_KANDAR" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_KANDAR" Tag="UNIT_CLASS_MOUNTED"/>
 		<Row Type="UNIT_KANDAR" Tag="UNIT_CLASS_CAVALRY"/>
 		<Row Type="UNIT_KANDAR" Tag="UNIT_CLASS_KANDAR"/>
-		
+
 		<Row Type="UNIT_KANDAR_2" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_KANDAR_2" Tag="UNIT_CLASS_MOUNTED"/>
 		<Row Type="UNIT_KANDAR_2" Tag="UNIT_CLASS_CAVALRY"/>
 		<Row Type="UNIT_KANDAR_2" Tag="UNIT_CLASS_KANDAR"/>
-		<Row Type="UNIT_KANDAR_2" Tag="UNIT_CLASS_ELITE_CAVALRY"/>
+		
+		<Row Type="UNIT_KANDAR_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_KANDAR_3" Tag="UNIT_CLASS_MOUNTED"/>
+		<Row Type="UNIT_KANDAR_3" Tag="UNIT_CLASS_CAVALRY"/>
+		<Row Type="UNIT_KANDAR_3" Tag="UNIT_CLASS_KANDAR"/>
+		<Row Type="UNIT_KANDAR_3" Tag="UNIT_CLASS_ELITE_CAVALRY"/>
 	</TypeTags>
 	<UnitClass_Abilities>
 		<Row UnitAbilityType="ABILITY_TUNKUR" UnitClassType="UNIT_CLASS_TUNKUR"/>
