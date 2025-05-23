@@ -15,14 +15,11 @@
 		<Row TraitType="TRAIT_HUNS_ABILITY" Name="LOC_TRAIT_HUNS_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_CIV_WAR_SUPPORT_HUNS"/>
-		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_GET_TUNKING"/>
+		<Row TraitType="TRAIT_HUNS_ABILITY" ModifierId="MOD_HUNS_ABILITY_UNIT_PRODUCTION"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_ANTIQUITY_CIV"/>
-
 		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_HUNS"/>
-
 		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_HUNS_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
 		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
@@ -44,16 +41,39 @@
 	<CityNames>
 		<!--SUMER-->
 		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS1"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS2"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS3"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS4"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS5"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS6"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS7"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS8"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS9"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS10"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS11"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS12"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS13"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS14"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS15"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS16"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS17"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS18"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS19"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS20"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS21"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_HUNS22"/>
 	</CityNames>
-	
 	<StartBiasResources>
 		<Row CivilizationType="CIVILIZATION_HUNS" ResourceType="RESOURCE_HORSES" Score="50"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" ResourceType="RESOURCE_LLAMAS" Score="50"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" ResourceType="RESOURCE_WOOL" Score="50"/>
 	</StartBiasResources>
 	<StartBiasBiomes>
-		<Row CivilizationType="CIVILIZATION_HUNS" BiomeType="BIOME_GRASSLAND" Score="10"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" BiomeType="BIOME_GRASSLAND" Score="50"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" BiomeType="BIOME_PLAINS" Score="50"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_HUNS" TerrainType="TERRAIN_FLAT" Score="10"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" TerrainType="TERRAIN_FLAT" Score="50"/>
 	</StartBiasTerrains>
 	<VisArt_CivilizationBuildingCultures>
 		<Row CivilizationType="CIVILIZATION_HUNS" BuildingCulture="BUILDING_CULTURE_EAS"/>

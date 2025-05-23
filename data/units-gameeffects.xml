@@ -21,25 +21,16 @@
 				<Argument name="UnitClass" inverse="true">UNIT_CLASS_KANDAR</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">3</Argument>
 		<String context="Preview">LOC_ABILITY_TUNKUR_PREVIEW</String>
 	</Modifier>
 	<!-- Culture -->
 
 	<Modifier id="KOK_BORI_MOD_UNIT_ATTACK_ABILITY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
-		</SubjectRequirements>
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW</String>
-	</Modifier>
-	<Modifier id="KOK_BORI_MOD_UNIT_ATTACK_ABILITY_2" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" inverse="true"/>
-		</SubjectRequirements>
 		<Argument name="Amount">-5</Argument>
 		<String context="Preview">LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW</String>
 	</Modifier>
+
 	<Modifier id="MOD_THE_GREAT_HORDE_MOVEMENT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
@@ -47,14 +38,6 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
-	</Modifier>
-	<Modifier id="MOD_THE_GREAT_HORDE_COMBAT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_KANDAR</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW</String>
+		<String context="Description">LOC_ABILITY_THE_GREAT_HORDE_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

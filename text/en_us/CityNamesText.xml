@@ -3,7 +3,70 @@
 	<EnglishText>
 		<!--HUNNIC-->
 		<Row Tag="LOC_CITY_NAME_HUNS1">
-			<Text>Attila's Court</Text>
+			<Text>ba'ŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS2">
+			<Text>hu's</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS3">
+			<Text>altəq</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS4">
+			<Text>sīn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS5">
+			<Text>hənaŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS6">
+			<Text>qa'j</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS7">
+			<Text>tū</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS8">
+			<Text>embaŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS9">
+			<Text>ēj</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS10">
+			<Text>ba'ŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS11">
+			<Text>sest ba'ŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS12">
+			<Text>ulbaŋt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS13">
+			<Text>ogə</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS14">
+			<Text>ūl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS15">
+			<Text>qa' bēj</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS16">
+			<Text>qool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS17">
+			<Text>de'</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS18">
+			<Text>qo'l</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS19">
+			<Text>tugd</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS20">
+			<Text>solgup</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS21">
+			<Text>anbok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNS22">
+			<Text>qōks</Text>
 		</Row>
 	</EnglishText>
 </Database>

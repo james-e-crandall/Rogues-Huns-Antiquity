@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Huns -->
+		<Row ListType="Huns Unit Biases"/>
+		<Row ListType="Huns Government Bias"/>
+		<Row ListType="Huns Constructibles Biases" />
+		<Row ListType="Huns Budget Biases" />
+		<Row ListType="Huns PseudoYield Biases" />
+		<Row ListType="Huns Tag Biases"/>
+		<Row ListType="Huns Settle Plot Conditions"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Huns -->
+		<Row ListType="Huns Unit Biases" LeaderType="TRAIT_HUNS" System="UnitBiases"/>
+		<Row ListType="Huns Government Bias" LeaderType="TRAIT_HUNS" System="GovernmentBiases"/>
+		<Row ListType="Huns Constructibles Biases" LeaderType="TRAIT_HUNS" System="ConstructibleBiases" />	
+		<Row ListType="Huns Budget Biases" LeaderType="TRAIT_HUNS" System="AiBudgetBiases"/>	
+		<Row ListType="Huns PseudoYield Biases" LeaderType="TRAIT_HUNS" System="PseudoYieldBiases"/>	
+		<Row ListType="Huns Tag Biases" LeaderType="TRAIT_HUNS" System="TagBiases"/>
+		<Row ListType="Huns Settle Plot Conditions" LeaderType="TRAIT_MISSISSIPPIAN" System="SettlementPlotEvaluations" />
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Huns -->
+		<Row ListType="Huns Constructibles Biases" Item="IMPROVEMENT_PASTURE" Value="200" />
+		<Row ListType="Huns Constructibles Biases" Item="BUILDING_ALTAR" Value="200" />
+		<Row ListType="Huns Constructibles Biases" Item="BUILDING_GRANARY" Value="200" />
+		<Row ListType="Huns Unit Biases" Item="UNIT_TUNKUR" Value="150"/>
+		<Row ListType="Huns Unit Biases" Item="UNIT_KANDAR" Value="150"/>
+		<Row ListType="Huns Unit Biases" Item="UNIT_KANDAR_2" Value="150"/>
+		<Row ListType="Huns Unit Biases" Item="UNIT_KANDAR_3" Value="150"/>
+		<Row ListType="Huns Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="150"/>
+		<Row ListType="Huns Settle Plot Conditions" Item="Resource Class" Value="5" StringVal="RESOURCECLASS_BONUS" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>

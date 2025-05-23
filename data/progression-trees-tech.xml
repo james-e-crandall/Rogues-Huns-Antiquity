@@ -2,6 +2,7 @@
 <Database>
 	<ProgressionTreeNodeUnlocks>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_ANIMAL_HUSBANDRY" TargetKind="KIND_UNIT" TargetType="UNIT_KANDAR" UnlockDepth="1" RequiredTraitType="TRAIT_HUNS"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_TUNKUR" UnlockDepth="1" RequiredTraitType="TRAIT_HUNS"/>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_KANDAR_2" UnlockDepth="1" RequiredTraitType="TRAIT_HUNS"/>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_KANDAR_3" UnlockDepth="1" RequiredTraitType="TRAIT_HUNS"/>
 	</ProgressionTreeNodeUnlocks>

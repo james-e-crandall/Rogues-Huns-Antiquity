@@ -1,41 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Kinds>
-		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
-	</Kinds>
-	<Types>
-		<Row Type="IMPROVEMENT_STEPPE_PASTURE" Kind="KIND_CONSTRUCTIBLE"/>
-	</Types>
-	<Constructibles>
-			<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" Name="LOC_IMPROVEMENT_STEPPE_PASTURE_NAME" Description="LOC_IMPROVEMENT_STEPPE_PASTURE_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_STEPPE_PASTURE_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="30" Population="1" Age="AGE_ANTIQUITY" RequiresUnlock="true"/>
-	</Constructibles>
 
-	<Improvements>
-		<!--Civ Unique Improvements-->
-		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_HUNS" SameAdjacentValid="false"/>
-	</Improvements>
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_ALFOLD" BuildingType1="BUILDING_ALTAR" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_ALFOLD_NAME" Description="LOC_QUARTER_ALFOLD_DESCRIPTION" Tooltip="LOC_QUARTER_ALFOLD_TOOLTIP" TraitType="TRAIT_HUNS"/>
+	</UniqueQuarters>
 
-	<Constructible_YieldChanges>
-		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" YieldType="YIELD_FOOD" YieldChange="6"/>
-		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" YieldType="YIELD_GOLD" YieldChange="4"/>
-		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
-	</Constructible_YieldChanges>
+	<GameModifiers>
+		<Row ModifierId="MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS"/>
+		<Row ModifierId="MOD_QUARTER_ALFOLD_RURAL_GOLD"/>
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_ALFOLD" ModifierId="MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS"/>
+		<Row UniqueQuarterType="QUARTER_ALFOLD" ModifierId="MOD_QUARTER_ALFOLD_RURAL_GOLD"/>
+	</UniqueQuarterModifiers>
 
-	<TypeTags>
-		<Row Type="IMPROVEMENT_STEPPE_PASTURE" Tag="UNIQUE_IMPROVEMENT"/>
-		<Row Type="IMPROVEMENT_STEPPE_PASTURE" Tag="AGELESS"/>
-	</TypeTags>
-
-	<Constructible_ValidDistricts>
-		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" DistrictType="DISTRICT_RURAL"/>
-	</Constructible_ValidDistricts>
-
-	
-    <Constructible_ValidResources>
-        <Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" ResourceType="RESOURCE_HORSES"/>
-    </Constructible_ValidResources>
-	
-	<Constructible_Advisories>
-		<Row ConstructibleType="IMPROVEMENT_STEPPE_PASTURE" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
-	</Constructible_Advisories>
 </Database>

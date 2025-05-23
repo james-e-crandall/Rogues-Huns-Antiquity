@@ -11,28 +11,29 @@
 		<Row Type="ABILITY_THE_GREAT_HORDE" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_TUNKUR" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" BaseSightRange="1" BaseMoves="7" PrereqPopulation="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" FoundCity="true" CostProgressionModel="COST_PROGRESSION_NUM_SETTLEMENTS" CostProgressionParam1="30" TraitType="TRAIT_HUNS"/>
-		<Row UnitType="UNIT_KANDAR" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="1" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT"  ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_HUNS"/>
-		<Row UnitType="UNIT_KANDAR_2" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="2" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" TraitType="TRAIT_HUNS"/>
-		<Row UnitType="UNIT_KANDAR_3" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="3" Maintenance="3" BaseSightRange="2" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT"  ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"  TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_TUNKUR" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_WHEELED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="10" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_KANDAR" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="1" Maintenance="2" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT"  ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="10" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_KANDAR_2" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="2" Maintenance="3" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="10" TraitType="TRAIT_HUNS"/>
+		<Row UnitType="UNIT_KANDAR_3" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Tier="3" Maintenance="4" BaseSightRange="2" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT"  ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="10"  TraitType="TRAIT_HUNS"/>
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_KANDAR" Combat="25"/>
+		<Row UnitType="UNIT_TUNKUR" Combat="15" RangedCombat="10" Bombard="30" Range="2"/>
+		<Row UnitType="UNIT_KANDAR" Combat="23"/>
 		<Row UnitType="UNIT_KANDAR_2" Combat="33"/>
 		<Row UnitType="UNIT_KANDAR_3" Combat="38"/>
 	</Unit_Stats>
 	<Unit_Costs>
-		<Row UnitType="UNIT_TUNKUR" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_KANDAR" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_KANDAR_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_KANDAR_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<Row UnitType="UNIT_TUNKUR" YieldType="YIELD_PRODUCTION" Cost="55"/>
+		<Row UnitType="UNIT_KANDAR" YieldType="YIELD_PRODUCTION" Cost="50"/>
+		<Row UnitType="UNIT_KANDAR_2" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<Row UnitType="UNIT_KANDAR_3" YieldType="YIELD_PRODUCTION" Cost="140"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 		<Row Unit="UNIT_KANDAR" UpgradeUnit="UNIT_KANDAR_2"/>
 		<Row Unit="UNIT_KANDAR_2" UpgradeUnit="UNIT_KANDAR_2"/>
 	</UnitUpgrades>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_TUNKUR" ReplacesUnitType="UNIT_SETTLER"/>
+		<Row CivUniqueUnitType="UNIT_TUNKUR" ReplacesUnitType="UNIT_BALLISTA"/>
 		<Row CivUniqueUnitType="UNIT_KANDAR_2" ReplacesUnitType="UNIT_CHARIOT"/>
 		<Row CivUniqueUnitType="UNIT_KANDAR_3" ReplacesUnitType="UNIT_HORSEMAN"/>
 	</UnitReplaces>
@@ -41,7 +42,9 @@
 		<Row Tag="UNIT_CLASS_KANDAR" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
-		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_CREATE_TOWN"/>
+		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_WHEELED"/>
+		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_SIEGE"/>
 		<Row Type="UNIT_TUNKUR" Tag="UNIT_CLASS_TUNKUR"/>
 
 		<Row Type="UNIT_KANDAR" Tag="UNIT_CLASS_COMBAT"/>
@@ -79,7 +82,6 @@
 		<!-- Culture -->
 		<Row UnitAbilityType="ABILITY_KOK_BORI_UNIT_ATTACK_ABILITY" ModifierId="KOK_BORI_MOD_UNIT_ATTACK_ABILITY"/>
 		<Row UnitAbilityType="ABILITY_THE_GREAT_HORDE" ModifierId="MOD_THE_GREAT_HORDE_MOVEMENT_ABILITY"/>
-		<Row UnitAbilityType="ABILITY_THE_GREAT_HORDE" ModifierId="MOD_THE_GREAT_HORDE_COMBAT_ABILITY"/>
 
 	</UnitAbilityModifiers>
 	<Unit_Advisories>

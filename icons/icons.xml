@@ -8,13 +8,13 @@
 		<Row>
 			<ID>CIVILIZATION_HUNS</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_aksum_1080</Path>
+			<Path>fs://game/rogues-civ-huns/lsbg_huns_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_HUNS</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_aksum_720</Path>
+			<Path>fs://game/rogues-civ-huns/lsbg_huns_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
 		<Row>
@@ -25,6 +25,10 @@
 			<ID>UNIT_TUNKUR</ID>
 			<Path>fs://game/rogues-civ-huns/assets/icon/tunkur.png</Path>
 		</Row>
+		<Row>
+			<ID>UNIT_TUNKUR_2</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/tunkur.png</Path>
+		</Row>		
 		<Row>
 			<ID>UNIT_KANDAR</ID>
 			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>

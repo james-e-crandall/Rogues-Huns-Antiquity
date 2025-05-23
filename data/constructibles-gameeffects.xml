@@ -1,3 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+
+
+	<Modifier id="MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_ALFOLD</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS</Argument>
+		<String context="Description">LOC_QUARTER_ALFOLD_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="ATTACH_MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">RURAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_BASQURT_RURAL_HAPPIENSS_DESCRIPTION</String>
+	</Modifier>
+
+		<Modifier id="MOD_QUARTER_ALFOLD_RURAL_GOLD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_ALFOLD</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_MOD_QUARTER_ALFOLD_RURAL_GOLD</Argument>
+		<String context="Description">LOC_QUARTER_ALFOLD_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="ATTACH_MOD_QUARTER_ALFOLD_RURAL_GOLD" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">RURAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_BASQURT_RURAL_HAPPIENSS_DESCRIPTION</String>
+	</Modifier>
+
+
 </GameEffects>

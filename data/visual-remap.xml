@@ -27,7 +27,7 @@
             <DisplayName>LOC_UNIT_TUNKUR_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_TUNKUR</From>
-            <To>UNIT_SETTLER</To>
+            <To>UNIT_BALLISTA</To>
         </Row>     
     </VisualRemaps>
 </Database>
