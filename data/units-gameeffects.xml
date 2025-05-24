@@ -7,21 +7,14 @@
 		<String context="Description">LOC_TUNKUR_INFLUENCE_ON_UNIT_DEFEAT_NAME</String>
 		<String context="WorldText">LOC_WORLD_DIPLOMACY_INCREASE_FLOATER</String>
 	</Modifier>
-
 	<Modifier id="MOD_GET_TUNKING" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_OPPONENT_IS_DISTRICT_WITH_SPECIFIC_CONSTRUCTIBLE">
-				<Argument name="ConstructibleType">BUILDING_ANCIENT_WALLS</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_PLOT_ADJACENT_UNIT_TAG_MATCHES">
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_TUNKUR</Argument>
 				<Argument name="IncludeCenter">true</Argument>
 			</Requirement>
-			<Requirement type="REQUIREMENT_UNIT_CLASS_MATCHES">
-				<Argument name="UnitClass" inverse="true">UNIT_CLASS_KANDAR</Argument>
-			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">3</Argument>
+		<Argument name="Amount">1</Argument>
 		<String context="Preview">LOC_ABILITY_TUNKUR_PREVIEW</String>
 	</Modifier>
 	<!-- Culture -->

@@ -6,7 +6,7 @@
 			<Text>Tunkur</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TUNKUR_DESCRIPTION">
-			<Text>Hunnic Unique Support Unit. Adjacent Kandar units recieve +10 combat strength against walled districts.</Text>
+			<Text>Hunnic Unique Support Unit. Adjacent Kandar units recieve +1 combat strength.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_TUNKUR_PREVIEW">
 			<Text>+{1_Amount} Tunkur</Text>
@@ -15,7 +15,7 @@
 			<Text>Tunkur</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_TUNKUR_DESCRIPTION">
-			<Text>Additional combat strength against walled districts.</Text>
+			<Text>Adjacent Kandar units recieve +1 combat strength</Text>
 		</Row>
 
 		<!-- KANDAR -->
@@ -27,6 +27,10 @@
 		</Row>
 
 		<!-- Culture -->
+		<Row Tag="LOC_ABILITY_KOK_BORI_NAME">
+			<Text>Kok Bori</Text>
+		</Row>
+
 		<Row Tag="LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW">
 			<Text>{1_Amount} Kok Bori</Text>
 		</Row>
