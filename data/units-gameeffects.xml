@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Units -->
-	<Modifier id="KANDAR_MOD_INFLUENCE_ON_UNIT_DEFEAT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
-		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
-		<Argument name="PercentDefeatedStrength">50</Argument>
-		<String context="Description">LOC_TUNKUR_INFLUENCE_ON_UNIT_DEFEAT_NAME</String>
-		<String context="WorldText">LOC_WORLD_DIPLOMACY_INCREASE_FLOATER</String>
-	</Modifier>
+
 	<Modifier id="MOD_GET_TUNKING" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES">
