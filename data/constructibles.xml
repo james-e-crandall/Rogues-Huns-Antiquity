@@ -1,18 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<Types>
+		<Row Type="BUILDING_MEDOS_KAMOS" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<Constructibles>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" Name="LOC_BUILDING_MEDOS_KAMOS_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_DESCRIPTION" Tooltip="LOC_BUILDING_MEDOS_KAMOS_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+	</Constructibles>
+	<Buildings>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" Movable="false" Town="True" TraitType="TRAIT_HUNS"/>
+	</Buildings>
+	<TypeTags>
+		<Row Type="BUILDING_MEDOS_KAMOS" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_MEDOS_KAMOS" Tag="AGELESS"/>
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" DistrictType="DISTRICT_URBAN"/>
+	</Constructible_ValidDistricts>
+	<Constructible_ValidBiomes>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" BiomeType="BIOME_PLAINS"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" BiomeType="BIOME_GRASSLAND"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" BiomeType="BIOME_TROPICAL"/>
+	</Constructible_ValidBiomes>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_GOLD" Amount="2"/>
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosCampHappiness"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosPastureHappiness"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosCampFood"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosPastureFood"/>
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="MedosKamosCampHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_CAMP"/>
+		<Row ID="MedosKamosPastureHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_PASTURE"/>
+		<Row ID="MedosKamosCampFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_CAMP"/>
+		<Row ID="MedosKamosPastureFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_PASTURE"/>
+	</Adjacency_YieldChanges>
+	<Adjacency_YieldChanges>
 
+	</Adjacency_YieldChanges>
+	<Constructible_WarehouseYields>
+	</Constructible_WarehouseYields>
+	<Warehouse_YieldChanges>
+
+	</Warehouse_YieldChanges>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_ALFOLD" BuildingType1="BUILDING_ALTAR" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_ALFOLD_NAME" Description="LOC_QUARTER_ALFOLD_DESCRIPTION" Tooltip="LOC_QUARTER_ALFOLD_TOOLTIP" TraitType="TRAIT_HUNS"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" BuildingType1="BUILDING_MEDOS_KAMOS" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Tooltip="LOC_QUARTER_STRAVA_TOOLTIP" TraitType="TRAIT_HUNS"/>
 	</UniqueQuarters>
-
 	<GameModifiers>
-		<Row ModifierId="MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS"/>
-		<Row ModifierId="MOD_QUARTER_ALFOLD_RURAL_GOLD"/>
+		<Row ModifierId="MOD_QUARTER_STRAVA_HAPPINESS"/>
+		<Row ModifierId="MOD_QUARTER_STRAVA_FOOD"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_ALFOLD" ModifierId="MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS"/>
-		<Row UniqueQuarterType="QUARTER_ALFOLD" ModifierId="MOD_QUARTER_ALFOLD_RURAL_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_HAPPINESS"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_FOOD"/>
 	</UniqueQuarterModifiers>
 
 </Database>

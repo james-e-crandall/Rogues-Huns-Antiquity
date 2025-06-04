@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- NODE_CIVIC_AQ_HUNS_QUT -->
-	<Modifier id="MOD_HUNS_CIV_WAR_SUPPORT_1" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
-		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
-		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_HUNS_CIV_WAR_SUPPORT_DESCRIPTION</String>
-	</Modifier>
+
 
 	<!-- Bozkir Yolu -->
-	<Modifier id="MOD_HUNS_CIV_WAR_SUPPORT_2" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
-		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
-		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_HUNS_CIV_WAR_SUPPORT_DESCRIPTION</String>
-	</Modifier>
+
 	<!-- Altun Yul -->
-	<Modifier id="MOD_HUNS_CIV_WAR_SUPPORT_3" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+	<Modifier id="MOD_HUNS_CIV_WAR_SUPPORT_1" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
 		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_HUNS_CIV_WAR_SUPPORT_DESCRIPTION</String>
@@ -25,12 +17,11 @@
     </Modifier>
 	
 	<!-- Tangri Yarlığı -->
-	<Modifier id="MOD_HUNS_CIV_WAR_SUPPORT_4" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+	<Modifier id="MOD_HUNS_CIV_WAR_SUPPORT_2" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
 		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_HUNS_CIV_WAR_SUPPORT_DESCRIPTION</String>
 	</Modifier>
-
 	<Modifier id="MOD_HUNS_THE_GREAT_HORDE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">'
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
@@ -38,5 +29,5 @@
 		<Argument name="AbilityType">ABILITY_THE_GREAT_HORDE</Argument>
 		<String context="Description">LOC_MOD_HUNS_THE_GREAT_HORDE_DESCRIPTION</String>
 	</Modifier>
-	
+
 </GameEffects>

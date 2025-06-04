@@ -2,12 +2,23 @@
 <Database>
 	<EnglishText>
 
-		<Row Tag="LOC_QUARTER_ALFOLD_NAME">
-			<Text>Alföld</Text>
+		<!-- BUILDING -->
+		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_NAME">
+			<Text>Strava</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_TOOLTIP">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<!-- QUARTER -->
+		<Row Tag="LOC_QUARTER_STRAVA_NAME">
+			<Text>Strava</Text>
 		</Row>
 
-		<Row Tag="LOC_QUARTER_ALFOLD_DESCRIPTION">
-			<Text>+1 [icon:YIELD_HAPPINESS]Happiness and +1[icon:YIELD_GOLD]Gold per Rural District.</Text>
+		<Row Tag="LOC_QUARTER_STRAVA_DESCRIPTION">
+			<Text>+1 [icon:YIELD_HAPPINESS]Happiness and +1[icon:YIELD_FOOD]Food. Receive a free Kandar Unit when completed.</Text>
 		</Row>
 
 	</EnglishText>

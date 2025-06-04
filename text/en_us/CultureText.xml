@@ -13,6 +13,10 @@
 		<Row Tag="LOC_CIVIC_QUT_NAME">
 			<Text>Qut</Text>
 		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HUNS_QUT_CAVALRY_DESCRIPTION">
+			<Text>Recieve a Kandar Unit after building the Medos Kamos</Text>
+		</Row>
+
 
 		<!-- TRADITION -->
 		<Row Tag="LOC_TRADITION_YASIRGAN_NAME">

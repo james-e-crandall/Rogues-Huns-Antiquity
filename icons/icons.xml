@@ -17,6 +17,12 @@
 			<Path>fs://game/rogues-civ-huns/lsbg_huns_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <!-- constructables -->
+        <Row>
+            <ID>BUILDING_MEDOS_KAMOS</ID>
+            <Path>fs://game/rogues-civ-huns/assets/icon/buildicon_medos_kamos.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
 		<Row>
 			<ID>IMPROVEMENT_STEPPE_PASTURE</ID>
 			<Path>impicon_obsh</Path>

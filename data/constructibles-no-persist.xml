@@ -2,5 +2,10 @@
 <Database>
     
 	<ConstructibleModifiers>
+
     </ConstructibleModifiers>
+	<GameModifiers>
+		<!-- Unique Quarter modifiers are game-wide -->
+		<Row ModifierId="MOD_QUARTER_STRAVA_FREE_KANDAR"/>
+	</GameModifiers>
 </Database>

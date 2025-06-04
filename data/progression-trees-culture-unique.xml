@@ -25,27 +25,24 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Qut -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_1" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_TRADITION" TargetType="TRADITION_BASQURT" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
-
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_MEDOS_KAMOS" UnlockDepth="1"/>
+		
 		<!-- Bozkir Yolu -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_2" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_TRADITION" TargetType="TRADITION_YILKI_YOLU" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
 
 		<!-- Altun Yul -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_3" UnlockDepth="1"/>
+		 <Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_TRADITION" TargetType="TRADITION_YASIRGAN" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_BOZKIR_YOLU_GET_RANCHED" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_TRADITION" TargetType="TRADITION_YASIRGAN" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_1" UnlockDepth="2"/>
 
 		<!-- Tangri Yarlığı -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_4" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_TRADITION" TargetType="TRADITION_YANKUL" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_TRADITION" TargetType="TRADITION_KOK_BORI" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_TRADITION" TargetType="TRADITION_KOK_BORI" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_THE_GREAT_HORDE" UnlockDepth="2"/>
-
-
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_2" UnlockDepth="2"/>
+		
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<Row Node="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" PrereqNode="NODE_CIVIC_AQ_HUNS_QUT"/>

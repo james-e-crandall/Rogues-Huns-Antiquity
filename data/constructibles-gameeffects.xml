@@ -2,47 +2,56 @@
 <GameEffects xmlns="GameEffects">
 
 
-	<Modifier id="MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	<!-- QUARTER -->
+	<Modifier id="MOD_QUARTER_STRAVA_FREE_KANDAR" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_ALFOLD</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS</Argument>
-		<String context="Description">LOC_QUARTER_ALFOLD_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="ATTACH_MOD_QUARTER_ALFOLD_RURAL_HAPPIENSS" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">RURAL</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_MOD_BASQURT_RURAL_HAPPIENSS_DESCRIPTION</String>
+		<Argument name="UnitTag">UNIT_CLASS_KANDAR</Argument>
 	</Modifier>
 
-		<Modifier id="MOD_QUARTER_ALFOLD_RURAL_GOLD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	<Modifier id="ATTACH_MOD_QUARTER_STRAVA_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">MedosKamosCampHappiness</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_QUARTER_STRAVA_NAME</Argument>
+		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
+	</Modifier>
+	
+	<Modifier id="MOD_QUARTER_STRAVA_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_ALFOLD</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_QUARTER_ALFOLD_RURAL_GOLD</Argument>
-		<String context="Description">LOC_QUARTER_ALFOLD_DESCRIPTION</String>
+		<Argument name="ModifierId">ATTACH_MOD_QUARTER_STRAVA_HAPPINESS</Argument>
+		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="ATTACH_MOD_QUARTER_ALFOLD_RURAL_GOLD" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+	<Modifier id="ATTACH_MOD_QUARTER_STRAVA_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">RURAL</Argument>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Adjacency_YieldChange">MedosKamosCampFood</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_MOD_BASQURT_RURAL_HAPPIENSS_DESCRIPTION</String>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_QUARTER_STRAVA_NAME</Argument>
+		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
 	</Modifier>
 
+	<Modifier id="MOD_QUARTER_STRAVA_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_MOD_QUARTER_STRAVA_FOOD</Argument>
+		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
+	</Modifier>
 
 </GameEffects>

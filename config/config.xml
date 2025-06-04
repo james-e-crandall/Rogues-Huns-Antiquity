@@ -8,7 +8,8 @@
 	</LeaderCivilizationBias>
 	<CivilizationItems>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="TRAIT_HUNS_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HUNS_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="QUARTER_ALFOLD" Kind="KIND_QUARTER" Name="LOC_QUARTER_ALFOLD_NAME" Description="LOC_QUARTER_ALFOLD_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="BUILDING_MEDOS_KAMOS" Kind="KIND_BUILDING" Name="LOC_BUILDING_MEDOS_KAMOS_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_DESCRIPTION" Icon="ICON_BUILDING_MEDOS_KAMOS"/>	
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="QUARTER_STRAVA" Kind="KIND_QUARTER" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Icon="city_uniquequarter"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="UNIT_KANDAR" Kind="KIND_UNIT" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Icon="UNIT_KANDAR"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="UNIT_TUNKUR" Kind="KIND_UNIT" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" Icon="UNIT_TUNKUR"/>
 	</CivilizationItems>

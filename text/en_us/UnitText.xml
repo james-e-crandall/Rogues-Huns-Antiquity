@@ -23,7 +23,7 @@
 			<Text>Kandar</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KANDAR_DESCRIPTION">
-			<Text>Hunnic Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_DIPLOMACY] [B]Influence [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B]</Text>
+			<Text>Hunnic Unique Cavalry Unit.</Text>
 		</Row>
 
 		<!-- Culture -->
