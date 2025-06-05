@@ -24,7 +24,7 @@
 	</Constructible_ValidBiomes>
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_FOOD" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_GOLD" Amount="2"/>

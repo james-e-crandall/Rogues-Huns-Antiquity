@@ -10,7 +10,7 @@
 			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_TOOLTIP">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
+			<Text>Ageless. Can be purchased in Towns.</Text>
 		</Row>
 		<!-- QUARTER -->
 		<Row Tag="LOC_QUARTER_STRAVA_NAME">
@@ -18,7 +18,7 @@
 		</Row>
 
 		<Row Tag="LOC_QUARTER_STRAVA_DESCRIPTION">
-			<Text>+1 [icon:YIELD_HAPPINESS]Happiness and +1[icon:YIELD_FOOD]Food. Receive a free Kandar Unit when completed.</Text>
+			<Text>Gain a free Cavalry Unit when entering a Celebration. -25% [icon:YIELD_PRODUCTION] Production towards units in the city.</Text>
 		</Row>
 
 	</EnglishText>

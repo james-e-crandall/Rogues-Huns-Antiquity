@@ -10,7 +10,7 @@
 			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
             <Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
 		</SubjectRequirements>
-		<Argument name="Percent">75</Argument>
+		<Argument name="Percent">100</Argument>
         <String context="Description">LOC_TRADITION_YASIRGAN_CAPITAL_UNIT_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
 

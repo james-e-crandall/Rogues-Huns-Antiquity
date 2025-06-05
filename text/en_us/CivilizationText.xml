@@ -23,7 +23,7 @@
 			<Text>Tängri Qut</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]+75% [icon:YIELD_PRODUCTION] Production towards units in your capital.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Nagyszéksós[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]+100% [icon:YIELD_PRODUCTION] Production towards units in your capital.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Nagyszéksós[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HUNS_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Hun's associated Wonder.</Text>

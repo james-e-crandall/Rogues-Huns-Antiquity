@@ -3,55 +3,25 @@
 
 
 	<!-- QUARTER -->
-	<Modifier id="MOD_QUARTER_STRAVA_FREE_KANDAR" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+	<Modifier id="MOD_QUARTER_STRAVA_FREE_KANDAR" collection="COLLECTION_ALL_CITIES" effect="TRIGGER_PLAYER_GRANT_UNIT_ON_GOLDEN_AGE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
-		<Argument name="UnitTag">UNIT_CLASS_KANDAR</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_CAVALRY</Argument>
+		<Argument name="AllowUniqueOverride">true</Argument>
 	</Modifier>
 
-	<Modifier id="ATTACH_MOD_QUARTER_STRAVA_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<Argument name="Adjacency_YieldChange">MedosKamosCampHappiness</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_QUARTER_STRAVA_NAME</Argument>
-		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
-	</Modifier>
-	
-	<Modifier id="MOD_QUARTER_STRAVA_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	<Modifier id="MOD_QUARTER_STRAVA_UNIT_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_QUARTER_STRAVA_HAPPINESS</Argument>
-		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="ATTACH_MOD_QUARTER_STRAVA_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">MedosKamosCampFood</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_QUARTER_STRAVA_NAME</Argument>
-		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_QUARTER_STRAVA_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_QUARTER_STRAVA_FOOD</Argument>
-		<String context="Description">LOC_QUARTER_STRAVA_DESCRIPTION</String>
+		<Argument name="Percent">-25</Argument>
+        <String context="Description">LOC_TRADITION_YASIRGAN_CAPITAL_UNIT_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>
