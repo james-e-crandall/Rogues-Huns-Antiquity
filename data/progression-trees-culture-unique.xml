@@ -18,15 +18,15 @@
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
 		<!--Civ Unique Mastery Tree Nodes-->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="125" Name="LOC_CIVIC_QUT_NAME" IconString="cult_HUNS"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="125" Name="LOC_CIVIC_BOZKIR_YOLU_NAME" IconString="cult_HUNS"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="245" Name="LOC_CIVIC_ALTUN_YUL_NAME" IconString="cult_HUNS"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="245" Name="LOC_CIVIC_TANGRI_YARLIGI_NAME" IconString="cult_HUNS"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="125" Name="LOC_CIVIC_QUT_NAME" IconString="cult_huns_rog"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="125" Name="LOC_CIVIC_BOZKIR_YOLU_NAME" IconString="cult_huns_rog"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="245" Name="LOC_CIVIC_ALTUN_YUL_NAME" IconString="cult_huns_rog"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" ProgressionTree="TREE_CIVICS_AQ_HUNS" Cost="245" Name="LOC_CIVIC_TANGRI_YARLIGI_NAME" IconString="cult_huns_rog"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Qut -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_TRADITION" TargetType="TRADITION_BASQURT" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_MEDOS_KAMOS" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_MEDOS_KAMOS_ROG" UnlockDepth="1"/>
 		
 		<!-- Bozkir Yolu -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_TRADITION" TargetType="TRADITION_YILKI_YOLU" UnlockDepth="1"/>

@@ -2,20 +2,20 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_HUNS" Kind="KIND_TRAIT"/>
-		<Row Type="CIVILIZATION_HUNS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_HUNS_ROG" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_HUNS_ROG" Kind="KIND_CIVILIZATION"/>
 	</Types>
 
 	<LegacyCivilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_HUNS" Name="LOC_CIVILIZATION_HUNS_NAME" FullName="LOC_CIVILIZATION_HUNS_FULLNAME" Adjective="LOC_CIVILIZATION_HUNS_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+		<Row CivilizationType="CIVILIZATION_HUNS_ROG" Name="LOC_CIVILIZATION_HUNS_ROG_NAME" FullName="LOC_CIVILIZATION_HUNS_ROG_FULLNAME" Adjective="LOC_CIVILIZATION_HUNS_ROG_ADJECTIVE" Age="AGE_ANTIQUITY"/>
 	</LegacyCivilizations>
 
 	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_HUNS"/>
+		<Row CivilizationType="CIVILIZATION_HUNS_ROG" TraitType="TRAIT_HUNS_ROG"/>
 	</LegacyCivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_HUNS" InternalOnly="true"/>
+		<Row TraitType="TRAIT_HUNS_ROG" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
 	</LegacyLeaderCivPriorities>

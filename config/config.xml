@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Civilizations>
-		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" CivilizationName="LOC_CIVILIZATION_HUNS_NAME" CivilizationFullName="LOC_CIVILIZATION_HUNS_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_HUNS_DESCRIPTION" CivilizationIcon="civ_sym_huns.png"/>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" CivilizationName="LOC_CIVILIZATION_HUNS_ROG_NAME" CivilizationFullName="LOC_CIVILIZATION_HUNS_ROG_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_HUNS_ROG_DESCRIPTION" CivilizationIcon="civ_sym_huns_rog.png"/>
 	</Civilizations>
 	<LeaderCivilizationBias>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_HAN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_HAN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 	</LeaderCivilizationBias>
 	<CivilizationItems>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="TRAIT_HUNS_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HUNS_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ABILITY_DESCRIPTION"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="BUILDING_MEDOS_KAMOS" Kind="KIND_BUILDING" Name="LOC_BUILDING_MEDOS_KAMOS_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_DESCRIPTION" Icon="ICON_BUILDING_MEDOS_KAMOS"/>	
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="QUARTER_STRAVA" Kind="KIND_QUARTER" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Icon="city_uniquequarter"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="UNIT_KANDAR" Kind="KIND_UNIT" Name="LOC_UNIT_KANDAR_NAME" Description="LOC_UNIT_KANDAR_DESCRIPTION" Icon="UNIT_KANDAR"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" Type="UNIT_TUNKUR" Kind="KIND_UNIT" Name="LOC_UNIT_TUNKUR_NAME" Description="LOC_UNIT_TUNKUR_DESCRIPTION" Icon="UNIT_TUNKUR"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" Type="TRAIT_HUNS_ROG_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HUNS_ROG_ABILITY_NAME" Description="LOC_TRAIT_HUNS_ROG_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" Type="BUILDING_MEDOS_KAMOS_ROG" Kind="KIND_BUILDING" Name="LOC_BUILDING_MEDOS_KAMOS_ROG_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_ROG_DESCRIPTION" Icon="ICON_BUILDING_MEDOS_KAMOS_ROG"/>	
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" Type="QUARTER_STRAVA" Kind="KIND_QUARTER" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" Type="UNIT_KANDAR_ROG" Kind="KIND_UNIT" Name="LOC_UNIT_KANDAR_ROG_NAME" Description="LOC_UNIT_KANDAR_ROG_DESCRIPTION" Icon="UNIT_KANDAR_ROG"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" Type="UNIT_TUNKUR_ROG" Kind="KIND_UNIT" Name="LOC_UNIT_TUNKUR_ROG_NAME" Description="LOC_UNIT_TUNKUR_ROG_DESCRIPTION" Icon="UNIT_TUNKUR_ROG"/>
 	</CivilizationItems>
 	<CivilizationTags>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" TagType="TAG_TRAIT_MILITARISTIC"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" TagType="TAG_TRAIT_EXPANSIONIST"/>
 	</CivilizationTags>
 	<LeaderUnlocks>
 	</LeaderUnlocks>
 	<CivilizationUnlocks>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_MONGOLIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_MONGOLIA_NAME" Description="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Icon="ICON_CIVILIZATION_MONGOLIA"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HUNS_ROG" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_MONGOLIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_MONGOLIA_NAME" Description="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Icon="ICON_CIVILIZATION_MONGOLIA"/>
 	</CivilizationUnlocks>
 </Database>

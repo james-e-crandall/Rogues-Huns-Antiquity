@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<Row Type="BUILDING_MEDOS_KAMOS" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_MEDOS_KAMOS_ROG" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<Constructibles>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" Name="LOC_BUILDING_MEDOS_KAMOS_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_DESCRIPTION" Tooltip="LOC_BUILDING_MEDOS_KAMOS_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" Name="LOC_BUILDING_MEDOS_KAMOS_ROG_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_ROG_DESCRIPTION" Tooltip="LOC_BUILDING_MEDOS_KAMOS_ROG_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
 	</Constructibles>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" Movable="false" Town="True" TraitType="TRAIT_HUNS"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" Movable="false" Town="True" TraitType="TRAIT_HUNS_ROG"/>
 	</Buildings>
 	<TypeTags>
-		<Row Type="BUILDING_MEDOS_KAMOS" Tag="HAPPINESS"/>
-		<Row Type="BUILDING_MEDOS_KAMOS" Tag="AGELESS"/>
+		<Row Type="BUILDING_MEDOS_KAMOS_ROG" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_MEDOS_KAMOS_ROG" Tag="AGELESS"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<Constructible_ValidBiomes>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" BiomeType="BIOME_PLAINS"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" BiomeType="BIOME_GRASSLAND"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" BiomeType="BIOME_TROPICAL"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" BiomeType="BIOME_PLAINS"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" BiomeType="BIOME_GRASSLAND"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" BiomeType="BIOME_TROPICAL"/>
 	</Constructible_ValidBiomes>
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldType="YIELD_FOOD" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldType="YIELD_GOLD" Amount="2"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldType="YIELD_GOLD" Amount="2"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosCampHappiness"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosPastureHappiness"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosCampFood"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS" YieldChangeId="MedosKamosPastureFood"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosCampHappiness"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosPastureHappiness"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosCampFood"/>
+		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosPastureFood"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="MedosKamosCampHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_CAMP"/>
@@ -50,7 +50,7 @@
 
 	</Warehouse_YieldChanges>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_STRAVA" BuildingType1="BUILDING_MEDOS_KAMOS" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Tooltip="LOC_QUARTER_STRAVA_TOOLTIP" TraitType="TRAIT_HUNS"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" BuildingType1="BUILDING_MEDOS_KAMOS_ROG" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Tooltip="LOC_QUARTER_STRAVA_TOOLTIP" TraitType="TRAIT_HUNS_ROG"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<Row ModifierId="MOD_QUARTER_STRAVA_HAPPINESS"/>

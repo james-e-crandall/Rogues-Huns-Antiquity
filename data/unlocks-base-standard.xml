@@ -4,13 +4,13 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HUNS" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HUNS_ROG" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HUNS"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HUNS_ROG"/>
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HUNS" Name="LOC_CIVILIZATION_HUNS_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_HUNS" UnlockRewardType="CIVILIZATION_HUNS" UnlockRewardKind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HUNS_ROG" Name="LOC_CIVILIZATION_HUNS_ROG_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_HUNS_ROG" UnlockRewardType="CIVILIZATION_HUNS_ROG" UnlockRewardKind="KIND_CIVILIZATION"/>
 	</UnlockRewards>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_CIVILIZATION_IS_HUNS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -25,7 +25,7 @@
 
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_CIVILIZATION_IS_HUNS" Name="CivilizationType" Value="CIVILIZATION_HUNS"/>
+		<Row RequirementId="REQ_CIVILIZATION_IS_HUNS" Name="CivilizationType" Value="CIVILIZATION_HUNS_ROG"/>
 
 		<Row RequirementId="REQ_HUNS_HAS_1_RAZED_SETTLEMENT" Name="Amount" Value="1"/>
 		<Row RequirementId="REQ_HUNS_HAS_2_RAZED_SETTLEMENT" Name="Amount" Value="2"/>

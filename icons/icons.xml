@@ -2,50 +2,42 @@
 <Database>
 	<IconDefinitions>
 		<Row>
-			<ID>CIVILIZATION_HUNS</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/huns.png</Path>
+			<ID>CIVILIZATION_HUNS_ROG</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/civ_sym_huns_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_HUNS</ID>
+			<ID>CIVILIZATION_HUNS_ROG</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/rogues-civ-huns/lsbg_huns_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_HUNS</ID>
+			<ID>CIVILIZATION_HUNS_ROG</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/rogues-civ-huns/lsbg_huns_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <!-- constructables -->
         <Row>
-            <ID>BUILDING_MEDOS_KAMOS</ID>
-            <Path>fs://game/rogues-civ-huns/assets/icon/buildicon_medos_kamos.png</Path>
+            <ID>BUILDING_MEDOS_KAMOS_ROG</ID>
+            <Path>fs://game/rogues-civ-huns/assets/icon/buildicon_medos_kamos_rog.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>IMPROVEMENT_STEPPE_PASTURE</ID>
-			<Path>impicon_obsh</Path>
+			<ID>UNIT_TUNKUR_ROG</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_tunkur_rog.png</Path>
+		</Row>	
+		<Row>
+			<ID>UNIT_KANDAR_ROG</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_kandar_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_TUNKUR</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/tunkur.png</Path>
+			<ID>UNIT_KANDAR_ROG_2</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_kandar_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_TUNKUR_2</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/tunkur.png</Path>
-		</Row>		
-		<Row>
-			<ID>UNIT_KANDAR</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
-		</Row>
-		<Row>
-			<ID>UNIT_KANDAR_2</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
-		</Row>
-		<Row>
-			<ID>UNIT_KANDAR_3</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/kandar.png</Path>
+			<ID>UNIT_KANDAR_ROG_3</ID>
+			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_kandar_rog.png</Path>
 		</Row>
 	</IconDefinitions>
 	

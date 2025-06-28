@@ -2,31 +2,31 @@
 <Database>
     <VisualRemaps>
         <Row>
-            <ID>REMAP_UNIT_KANDAR</ID>
-            <DisplayName>LOC_UNIT_KANDAR_NAME</DisplayName>
+            <ID>REMAP_UNIT_KANDAR_ROG</ID>
+            <DisplayName>LOC_UNIT_KANDAR_ROG_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_KANDAR</From>
+            <From>UNIT_KANDAR_ROG</From>
             <To>UNIT_HORSEMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_KANDAR_2</ID>
-            <DisplayName>LOC_UNIT_KANDAR_NAME</DisplayName>
+            <ID>REMAP_UNIT_KANDAR_ROG_2</ID>
+            <DisplayName>LOC_UNIT_KANDAR_ROG_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_KANDAR_2</From>
+            <From>UNIT_KANDAR_ROG_2</From>
             <To>UNIT_HORSEMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_KANDAR_3</ID>
-            <DisplayName>LOC_UNIT_KANDAR_NAME</DisplayName>
+            <ID>REMAP_UNIT_KANDAR_ROG_3</ID>
+            <DisplayName>LOC_UNIT_KANDAR_ROG_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_KANDAR_3</From>
+            <From>UNIT_KANDAR_ROG_3</From>
             <To>UNIT_HORSEMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_TUNKUR</ID>
-            <DisplayName>LOC_UNIT_TUNKUR_NAME</DisplayName>
+            <ID>REMAP_UNIT_TUNKUR_ROG</ID>
+            <DisplayName>LOC_UNIT_TUNKUR_ROG_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_TUNKUR</From>
+            <From>UNIT_TUNKUR_ROG</From>
             <To>UNIT_BALLISTA</To>
         </Row>     
     </VisualRemaps>

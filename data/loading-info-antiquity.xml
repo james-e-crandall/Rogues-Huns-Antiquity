@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_HUNS" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_HUNS" Subtitle="LOC_LOADING_VO_HUNS" Audio="VO_Loading_HUNS" BackgroundImageHigh="fs://game/rogues-civ-huns/lsbg_huns_1080" BackgroundImageLow="fs://game/rogues-civ-huns/lsbg_huns_720" ForegroundImage="fs://game/rogues-civ-huns/civ_line_huns.png"/>
+		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_HUNS" Subtitle="LOC_LOADING_VO_HUNS" Audio="VO_Loading_HUNS" BackgroundImageHigh="fs://game/rogues-civ-huns/lsbg_huns_1080" BackgroundImageLow="fs://game/rogues-civ-huns/lsbg_huns_720" ForegroundImage="fs://game/rogues-civ-huns/civ_line_huns.png"/>
 	</LoadingInfo_Civilizations>
 </Database>

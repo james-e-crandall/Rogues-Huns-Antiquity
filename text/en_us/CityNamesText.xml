@@ -2,70 +2,70 @@
 <Database>
 	<EnglishText>
 		<!--HUNNIC-->
-		<Row Tag="LOC_CITY_NAME_HUNS1">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG1">
 			<Text>ba'ŋ</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS2">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG2">
 			<Text>hu's</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS3">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG3">
 			<Text>altəq</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS4">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG4">
 			<Text>sīn</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS5">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG5">
 			<Text>hənaŋ</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS6">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG6">
 			<Text>qa'j</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS7">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG7">
 			<Text>tū</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS8">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG8">
 			<Text>embaŋ</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS9">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG9">
 			<Text>ēj</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS10">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG10">
 			<Text>ba'ŋ</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS11">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG11">
 			<Text>sest ba'ŋ</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS12">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG12">
 			<Text>ulbaŋt</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS13">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG13">
 			<Text>ogə</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS14">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG14">
 			<Text>ūl</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS15">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG15">
 			<Text>qa' bēj</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS16">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG16">
 			<Text>qool</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS17">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG17">
 			<Text>de'</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS18">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG18">
 			<Text>qo'l</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS19">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG19">
 			<Text>tugd</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS20">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG20">
 			<Text>solgup</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS21">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG21">
 			<Text>anbok</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_HUNS22">
+		<Row Tag="LOC_CITY_NAME_HUNS_ROG22">
 			<Text>qōks</Text>
 		</Row>
 	</EnglishText>

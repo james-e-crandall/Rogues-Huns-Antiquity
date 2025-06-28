@@ -3,13 +3,13 @@
 	<EnglishText>
 
 		<!-- BUILDING -->
-		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_NAME">
+		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_NAME">
 			<Text>Strava</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_DESCRIPTION">
 			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_TOOLTIP">
+		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_TOOLTIP">
 			<Text>Ageless. Can be purchased in Towns.</Text>
 		</Row>
 		<!-- QUARTER -->

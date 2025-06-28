@@ -63,13 +63,14 @@
 		<ActionGroup id="rogues-civ-huns" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/tunkur.png</Item>
-					<Item>assets/icon/huns.png</Item>
-					<Item>assets/icon/cult_huns.png</Item>
-					<Item>assets/icon/civ_sym_huns</Item>
-					<Item>assets/icon/kandar.png</Item>
+					<Item>assets/icon/civ_sym_huns_rog</Item>
+					<Item>assets/icon/civ_sym_huns_rog.png</Item>
+					<Item>assets/icon/cult_huns_rog.png</Item>
+					<Item>assets/icon/unitflag_tunkur_rog.png</Item>
+					<Item>assets/icon/unitflag_kandar_rog.png</Item>
 					<Item>assets/icon/lsbg_huns_720</Item>
 					<Item>assets/icon/lsbg_huns_1080</Item>
+					<Item>assets/icon/buildicon_medos_kamos_rog.png</Item>			
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -133,13 +134,14 @@
 		<ActionGroup id="rogue-civ-huns-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/tunkur.png</Item>
-					<Item>assets/icon/huns.png</Item>
-					<Item>assets/icon/cult_huns.png</Item>
-					<Item>assets/icon/civ_sym_huns</Item>
-					<Item>assets/icon/kandar.png</Item>
+					<Item>assets/icon/civ_sym_huns_rog</Item>
+					<Item>assets/icon/civ_sym_huns_rog.png</Item>
+					<Item>assets/icon/cult_huns_rog.png</Item>
+					<Item>assets/icon/unitflag_tunkur_rog.png</Item>
+					<Item>assets/icon/unitflag_kandar_rog.png</Item>
 					<Item>assets/icon/lsbg_huns_720</Item>
 					<Item>assets/icon/lsbg_huns_1080</Item>
+					<Item>assets/icon/buildicon_medos_kamos_rog.png</Item>	
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>

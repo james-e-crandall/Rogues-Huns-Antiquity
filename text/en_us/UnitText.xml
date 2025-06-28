@@ -2,10 +2,10 @@
 <Database>
 	<EnglishText>
 		<!-- TUNKUR -->
-		<Row Tag="LOC_UNIT_TUNKUR_NAME">
+		<Row Tag="LOC_UNIT_TUNKUR_ROG_NAME">
 			<Text>Tunkur</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TUNKUR_DESCRIPTION">
+		<Row Tag="LOC_UNIT_TUNKUR_ROG_DESCRIPTION">
 			<Text>Hunnic Unique Support Unit. Adjacent Kandar units recieve +1 combat strength.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_TUNKUR_PREVIEW">
@@ -19,10 +19,10 @@
 		</Row>
 
 		<!-- KANDAR -->
-		<Row Tag="LOC_UNIT_KANDAR_NAME">
+		<Row Tag="LOC_UNIT_KANDAR_ROG_NAME">
 			<Text>Kandar</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_KANDAR_DESCRIPTION">
+		<Row Tag="LOC_UNIT_KANDAR_ROG_DESCRIPTION">
 			<Text>Hunnic Unique Cavalry Unit.</Text>
 		</Row>
 
