@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_HUNS_CIV_WAR_SUPPORT_DESCRIPTION">
-			<Text>Gain 1 War Support on all wars declared against you.</Text>
+			<Text>Gain 1 War Support on all wars.</Text>
 		</Row>
 
 		<!-- Qut -->

@@ -7,5 +7,10 @@
 		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_HUNS">
 			<Text>Unlike the sedentary kingdoms they clashed with, the Huns built no cities—their empire was wherever their horses roamed. They lived and fought on the move, wielding their powerful composite bows with deadly precision from horseback. Their diplomacy was as ruthless as their warfare, using intimidation, extortion, and swift reprisals to control vast territories without ever needing walls.</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_HUNS">
+			<Text>Expand into new pastures with your Tunkur and Kandar Unique Units.</Text>
+		</Row>
+
+		
 	</EnglishText>
 </Database>
