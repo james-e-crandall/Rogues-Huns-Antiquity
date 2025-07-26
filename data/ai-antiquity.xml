@@ -30,6 +30,10 @@
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Huns -->
+		<Row ListType="Huns Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="200"/>
+		<Row ListType="Huns Budget Biases" Item="AI_BUDGET_EXPANSION" Value="200"/>
+		<Row ListType="Huns Tag Biases" Item="MILITARY" Value="400"/>
+		<Row ListType="Huns PseudoYield Biases" Item="PSEUDOYIELD_NEW_CITY" Value="50"/>
 		<Row ListType="Huns Constructibles Biases" Item="IMPROVEMENT_PASTURE" Value="200" />
 		<Row ListType="Huns Constructibles Biases" Item="BUILDING_ALTAR" Value="200" />
 		<Row ListType="Huns Constructibles Biases" Item="BUILDING_GRANARY" Value="200" />
@@ -37,7 +41,6 @@
 		<Row ListType="Huns Unit Biases" Item="UNIT_KANDAR_ROG" Value="150"/>
 		<Row ListType="Huns Unit Biases" Item="UNIT_KANDAR_ROG_2" Value="150"/>
 		<Row ListType="Huns Unit Biases" Item="UNIT_KANDAR_ROG_3" Value="150"/>
-		<Row ListType="Huns Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="150"/>
 		<Row ListType="Huns Settle Plot Conditions" Item="Resource Class" Value="5" StringVal="RESOURCECLASS_BONUS" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->

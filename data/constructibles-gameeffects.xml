@@ -3,25 +3,40 @@
 
 
 	<!-- QUARTER -->
-	<Modifier id="MOD_QUARTER_STRAVA_FREE_KANDAR" collection="COLLECTION_ALL_CITIES" effect="TRIGGER_PLAYER_GRANT_UNIT_ON_GOLDEN_AGE">
+	<Modifier id="MOD_QUARTER_STRAVA_FREE_KANDAR_TOWN" collection="COLLECTION_ALL_CITIES" effect="TRIGGER_PLAYER_GRANT_UNIT_ON_GOLDEN_AGE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"></Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
 		<Argument name="UnitTag">UNIT_CLASS_CAVALRY</Argument>
 		<Argument name="AllowUniqueOverride">true</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_QUARTER_STRAVA_UNIT_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+	<Modifier id="MOD_QUARTER_STRAVA_HAPPINESS_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
-		<Argument name="Percent">-25</Argument>
-        <String context="Description">LOC_TRADITION_YASIRGAN_CAPITAL_UNIT_PRODUCTION_DESCRIPTION</String>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_MEDOS_KAMOS_ROG</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_QUARTER_STRAVA_FOOD_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_STRAVA</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_MEDOS_KAMOS_ROG</Argument>
 	</Modifier>
 
 </GameEffects>

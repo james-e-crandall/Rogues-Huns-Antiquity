@@ -36,11 +36,13 @@
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
-            <!-- let other mods override the yield banner -->
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
         <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
             <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="genghis-khan-enable">
+            <ModInUse>genghis-khan</ModInUse>
         </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -60,6 +62,17 @@
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="genghis-khan-enable-game" scope="game" criteria="genghis-khan-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>genghis-khan/data/civilizations-legacy.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>genghis-khan/text/en_un/UnlockText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
+		<!-- standard -->
 		<ActionGroup id="rogues-civ-huns" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -111,7 +124,6 @@
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/constructibles-no-persist.xml</Item>
 					<Item>data/loading-info-antiquity.xml</Item>
 					<Item>data/progression-trees-tech.xml</Item>
 					<Item>data/progression-trees-culture-common.xml</Item>	
@@ -148,6 +160,7 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>genghis-khan/config/config.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
@@ -160,6 +173,7 @@
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
+					<Item>genghis-khan/text/en_us/UnlockText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

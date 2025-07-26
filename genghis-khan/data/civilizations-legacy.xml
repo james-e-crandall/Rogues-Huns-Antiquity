@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_GENGHIS_KHAN" CivilizationType="CIVILIZATION_HUNS_ROG"/>
+	</LegacyLeaderCivPriorities>
+</Database>

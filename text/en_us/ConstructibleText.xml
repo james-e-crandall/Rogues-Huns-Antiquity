@@ -4,7 +4,7 @@
 
 		<!-- BUILDING -->
 		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_NAME">
-			<Text>Strava</Text>
+			<Text>Medos Kamos</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_DESCRIPTION">
 			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
@@ -18,7 +18,14 @@
 		</Row>
 
 		<Row Tag="LOC_QUARTER_STRAVA_DESCRIPTION">
-			<Text>Gain a free Cavalry Unit when entering a Celebration. -25% [icon:YIELD_PRODUCTION] Production towards units in the city.</Text>
+			<Text>Hun Unique Quarter. Created by constructing the Medos Kamos and Granary in the same District. Ageless.[LI]{LOC_QUARTER_STRAVA_TOOLTIP_TOWN}[LI]{LOC_QUARTER_STRAVA_TOOLTIP_CITY}[/LIST]</Text>
+		</Row>
+
+		<Row Tag="LOC_QUARTER_STRAVA_TOOLTIP_TOWN">
+			<Text>Town: Gain a free Cavalry Unit when entering a Celebration. .</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_STRAVA_TOOLTIP_CITY">
+			<Text>City: +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food</Text>
 		</Row>
 
 	</EnglishText>

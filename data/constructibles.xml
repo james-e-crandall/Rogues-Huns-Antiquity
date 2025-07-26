@@ -53,13 +53,15 @@
 		<Row UniqueQuarterType="QUARTER_STRAVA" BuildingType1="BUILDING_MEDOS_KAMOS_ROG" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Tooltip="LOC_QUARTER_STRAVA_TOOLTIP" TraitType="TRAIT_HUNS_ROG"/>
 	</UniqueQuarters>
 	<GameModifiers>
-		<Row ModifierId="MOD_QUARTER_STRAVA_HAPPINESS"/>
-		<Row ModifierId="MOD_QUARTER_STRAVA_FOOD"/>
+		<Row ModifierId="MOD_QUARTER_STRAVA_FREE_KANDAR_TOWN"/>
+		<Row ModifierId="MOD_QUARTER_STRAVA_HAPPINESS_CITY"/>
+		<Row ModifierId="MOD_QUARTER_STRAVA_FOOD_CITY"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_HAPPINESS"/>
-		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_FOOD"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_FREE_KANDAR_TOWN"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_HAPPINESS_CITY"/>
+		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_FOOD_CITY"/>
 	</UniqueQuarterModifiers>
 
 </Database>
