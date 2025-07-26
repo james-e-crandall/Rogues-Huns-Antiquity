@@ -68,7 +68,7 @@
 					<Item>genghis-khan/data/civilizations-legacy.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
-					<Item>genghis-khan/text/en_un/UnlockText.xml</Item>
+					<Item>genghis-khan/text/en_us/UnlockText.xml</Item>
 				</UpdateText>
             </Actions>
 		</ActionGroup>
